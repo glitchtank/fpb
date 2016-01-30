@@ -1,0 +1,149 @@
+/*
+#669900 green
+#7b0f19 darker red
+#c21728 dark red
+#f01f04 light red
+#fc6416 orange
+#e55b14 darker orange
+#e1e9c3 greenish gray */
+
+h4, body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.7em;
+}
+
+h4 {
+	font-weight: 900;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+	color: white;
+}
+span.glyphicon.glyphicon-fire {
+	color: #CCCC6F;
+}
+/* NAVBAR  */
+.navbar-inverse {
+	background: #B50000;
+	border-color: #B50000;
+}
+.navbar .navbar-header {
+	background: #B50000;
+	color: white ;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: #B50000;
+}
+
+.navbar .navbar-header>a {
+	color: white;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #B50000;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background: white;
+}
+.navbar-inverse .navbar-toggle:focus .icon-bar, .navbar-inverse .navbar-toggle:hover .icon-bar {
+	background: #B50000;
+}
+
+.breadcrumb {
+	margin-top: 60px;
+
+}
+/* JUMBOTRON  */
+.jumbotron {
+	margin-top: 30px;
+	padding-top: 15px;
+	background-image: url("../img/bgmain.jpg");
+	width: 100%;
+	height: 316px;
+	margin-bottom: 0px;
+	border: 1px solid black;
+}
+.logo { 
+	width: 280px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+}
+h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 1.2em;
+	color: white;
+	background: red;
+	padding: 7px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+/* SPECIALS */
+.special {
+	padding: 15px;
+
+	color: #444;
+	margin-bottom: 5px;
+ 
+}
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+
+
+/* smaller, dark, rounded square */
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #333;
+}
+.flickity-prev-next-button:hover {
+  background: #F90;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -40px;
+}
+.flickity-prev-next-button.next {
+  right: -40px;
+}
+/* specials price */
+.special>small {
+	font-size: 1.2em;
+	float: right;
+    background: green;
+    padding: 5px;
+    color: white;
+}
+/* SOCIAL MENU  */
+.social-menu {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: white;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+
+}
+.fa {
+	color: #629457;
+}
+
+.social-menu li {
+	float: left;
+	list-style: none;
+}
